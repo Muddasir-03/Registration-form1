@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Chakra Petch', sans-serif;
+}
+.container{
+    height: fit-content;
+    width: 100%;
+    background-image:url(/images/D4YMyXg-wood-hd-wallpaper.jpg);
+    background-attachment: fixed;   
+    background-size: cover;
+}
+.title{
+    padding-top: 1%;
+    text-align: center;
+    padding-bottom: 1%;
+    color: white;
+    font-size: x-large;
+}
+.section1{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 1.5%;
+}
+.section1 .input .content1 .name i{
+    transform: translate(19px,45px);
+ 
+
+}
+.section1 .input .content1 .input1 input{
+   height: 50px;
+   width: 125%;
+   color: white;
+   outline: 0;
+   border: 0;
+   color: white;
+   background-color: transparent;
+   border-radius: 8px;
+   border: 2px solid dimgray;
+   text-align: center;
+   font-size: 15px;
+   caret-color: gray;
+}
+.name{
+    color: white;
+    font-size: larger;
+    padding-bottom: 10px;
+}
+.gendersection{
+     width: 80%;  
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    font-size: larger;
+}
+.section{
+    display: flex;
+    gap: 10%;
+}
+.submit{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 20px;
+}
+.submit button{
+    text-decoration: none;
+    background-color:dimgray;
+    color: black;
+    padding: 10px;
+    border: 0;
+    font-size: larger;
+    border-radius: 10px;
+    height: 8vh;
+    width: 10%;
+    
+
+}
+.btn-animated {
+    border-radius: 4px;
+    vertical-align: middle;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+  .btn-animated span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .btn-animated span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .btn-animated:hover span {
+    padding-right: 25px;
+  }
+
+  .btn-animated:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+
+
+
+
+  @media (max-width:900px){
+    .submit button{
+        width: 15%;
+    }
+  }
+  @media (max-width:800px){
+    .title{
+        padding-bottom: 1%;
+    }
+    .section1{
+        padding-bottom: 2%;
+    }
+    .gendersection{
+        width: 71%;
+    }
+  }
+  @media (max-width:650px){
+    .container{
+        height: 115vh;
+    }
+  
+  .title{
+    padding-bottom: 6%;
+    padding-top: 5%;
+  }
+}
+  @media (max-width:600px){
+    .container{
+        height: 122vh;
+    }
+    .section1{
+        width: 100%;
+    }
+    .section1 .input .content1 .input1 input{
+        width: 100%;
+    }
+
+
+    .submit button{
+        width: 20%;
+    }
+    .gendersection{
+        width: 78%;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 3%;
+        
+     
+    }
+    .section{
+        gap: 5%;
+    }
+    .section1 .input .content1 .name i{
+        transform: translate(11px,43px);
+        
+     
+    
+    }
+    .section1 .input .content1 .input1 input{
+        font-size: 15px;
+        width: 100%;
+        padding-left: 17%;
+    }
+  }
+  @media (max-width:500px){
+    .container{
+        height: 123vh;
+        padding-top: 5%;
+        padding-bottom: 8%;
+    }
+    .title{
+        padding-bottom: 7%;
+    }
+    .name{
+        padding-bottom: 13px;
+    }
+
+  }
+  @media (max-width:450px){
+    .container{
+        height: 215vh;
+
+    }
+
+    .title{
+        padding-bottom: 8%;
+    }
+    .gendersection{
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    .submit button{
+        width: 25%;
+    }
+    .section1 .input .content1 .name i{
+        transform: translate(10px,45px);
+    }
+    .section1 .input .content1 .input1 input{
+        text-align: center;
+        /* padding-left: 0%; */
+        /* width: 52%; */
+    }
+    .name{
+        padding-bottom: 10px;
+    }
+    .input1{
+        padding-bottom: 15px;
+    }
+    .section1{
+        width: 87%;
+        /* flex-direction: column; */
+    }
+  }
+  @media (max-width:400px){
+    .container{
+        height: fit-content;
+
+    }
+    .section{
+       width: 99%;
+    }
+    .submit button{
+        width: 30%;
+    }
+    .gendersection{
+        margin-left: 10%;
+        padding-top: 3%;
+    }
+    .section{
+        gap: 6px;
+    }
+    .section1 .input .content1 .name i{
+        transform: translate(14px,46px);
+    }
+    .section1 .input .content1 .input1 input{
+        width: 108%;
+    }
+    .submit{
+        padding-top: 4%;
+    }
+  }
+  @media (max-width:350px){
+    .title{
+        font-size: 20px;
+        padding-bottom: 10%;
+        padding-top: 8%;
+    }
+    .gendersection{
+        font-size: 16px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .submit button{
+        width: 35%;
+    }
+    .name{
+        padding-bottom:8px;
+    }
+    .input1{
+        padding-bottom: 17px;
+    }
+  }
+  @media (max-width:300px){
+    .section1 .input .content1 .input1 input {
+        width: 108%;
+    }
+    .title{
+        padding-top: 3%;
+        padding-bottom: 10%;
+    }
+    .section1 .input .content1 .name i{
+        transform: translate(16px,41px);
+    }
+
+  }
+
+
