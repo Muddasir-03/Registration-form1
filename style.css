@@ -42,7 +42,9 @@ body{
    background-color: transparent;
    border-radius: 8px;
    border: 2px solid dimgray;
-   text-align: center;
+   /* text-align: center; */
+   /* margin-left: 10%; */
+   padding-left: 25%;
    font-size: 15px;
    caret-color: gray;
 }
