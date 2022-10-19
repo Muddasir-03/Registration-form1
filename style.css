@@ -217,8 +217,8 @@ body{
         transform: translate(10px,45px);
     }
     .section1 .input .content1 .input1 input{
-        text-align: center;
-        /* padding-left: 0%; */
+        /* text-align: center; */
+        /* margin-left: 5%; */
         /* width: 52%; */
     }
     .name{
